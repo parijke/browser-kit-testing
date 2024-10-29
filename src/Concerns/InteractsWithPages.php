@@ -66,7 +66,7 @@ trait InteractsWithPages
     /**
      * Visit the given named route with a GET request.
      *
-     * @param  string|BackedEnum  $route
+     * @param  BackedEnum|string  $route
      * @param  array  $parameters
      * @return $this
      */
@@ -196,7 +196,7 @@ trait InteractsWithPages
     /**
      * Assert that the current page matches a given named route.
      *
-     * @param  string|BackedEnum  $route
+     * @param  BackedEnum|string  $route
      * @param  array  $parameters
      * @return $this
      */

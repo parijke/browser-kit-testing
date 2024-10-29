@@ -50,7 +50,7 @@ class TestResponse extends \Illuminate\Testing\TestResponse
     /**
      * Assert whether the client was redirected to a given route.
      *
-     * @param  string|BackedEnum  $name
+     * @param  BackedEnum|string  $name
      * @param  array  $parameters
      * @param  array  $with
      * @return $this
